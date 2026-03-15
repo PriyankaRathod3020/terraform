@@ -1,5 +1,5 @@
 variable "filename" {
-  default= "/home/pikalinux/terraform/variables_prj/test.txt"
+  default= "/dir_path/test.txt"
 }
 
 variable "content" {
