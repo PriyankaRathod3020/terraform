@@ -1,0 +1,15 @@
+1. Create a instance
+2. install terraform
+3. install awscli
+4. configure aws by "aws configure" command
+  a. to configure aws we need a user who has permission to create the resources
+  b. Navigate to IAM User
+  c. create a user, assign permission to the user and create assess key for authentication purpose
+  d. for assigning multiple resource permission, create group assign multiple resource permission and then assign user to that group
+5. Once the user is created and permissions are assigned to it.
+6. perform aws configure
+7. Enter access key and secret access key
+8. you are ready to create resource.
+9. can also assign access_key and secret_access_key environment value in terraform by using below commands
+  a. export AWS_ACCESS_KEY_ID=<access key>
+  b. export AWS_SECRET_ACCESS_KEY=<secret access key>
